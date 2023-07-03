@@ -39,6 +39,7 @@ const BeshyGenerator = () => {
                 className={`${useInter.className} ${styles.input}`}
                 placeholder='Dito ka mag type beshy ko 🤸‍♀️'
                 aria-multiline
+                autoFocus
                 rows={3}
                 onChange={(input) => beshyGenerate(input.target.value)}
             />
